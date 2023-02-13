@@ -1,0 +1,449 @@
+@font-face {
+    font-family: Windows;
+    src: url(windowsregular.ttf);
+}
+
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Windows', sans-serif;
+    user-select: none;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008080;
+}
+
+
+
+
+
+.block {
+    position: relative;
+    margin: auto;
+    padding: 4px;
+    height: 400px;
+    width: 600px;
+    background-color: #bfbfbf;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2.5px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2.5px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 2.5px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2.5px;
+}
+
+
+
+
+
+.block header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    background-image: linear-gradient(to right, #00007b, #1084d1);
+    color: white;
+    padding: 0px 4px 0px 4px;
+    line-height: 32px; 
+}
+
+.block header h1 {
+    display: flex;
+}
+
+.block header .mec {
+    display: flex;
+}
+
+.block header .minimize, .extend, .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    background-color: #bfbfbf;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2.5px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2.5px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 2.5px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2.5px;      
+}
+
+.block header .minimize img, .extend img, .close img {
+    height: 70%;
+    width: 70%;
+}
+
+.block header .close {
+    margin-left: 4px;
+}
+
+
+
+
+
+nav {
+    background-color: #bfbfbf;
+    display: flex;  
+}
+
+nav p {
+    margin: 4px 8px 0px 0px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-bottom: solid transparent 2px;
+    border-right: solid transparent 2px;
+    border-left: solid transparent 2px;
+    border-top: solid transparent 2px;
+}
+
+nav p::first-letter {
+    text-decoration: underline;  
+}
+
+nav p:hover {
+    background-color: #bfbfbf;
+    border-bottom: solid grey 2px;
+    border-right: solid grey 2px;
+    border-left: solid lightgrey 2px;
+    border-top: solid lightgrey 2px;
+}
+
+
+
+
+
+.information {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+}
+
+.aboutme, .contactme, .huiswerk{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.aboutme img, .contactme img, .huiswerk img {
+    margin: auto;
+    padding-bottom: 8px;
+}
+
+[data-msg] {
+    position: relative;
+}
+
+[data-msg]:hover::after {
+    content: attr(data-msg);
+    position: absolute;
+    min-width: 80px;
+    padding: 2px 6px 2px 6px;
+    background-color: white;
+    left: 50%;
+    bottom: 80%;
+}
+
+
+
+
+
+
+.popup-picture {
+    visibility: hidden;
+    position: absolute;
+    left: 100px;
+    bottom: 260px;
+    margin: auto;
+    padding: 4px;
+    height: 410px;
+    width: 500px;
+    background-color: #bfbfbf;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2.5px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2.5px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 2.5px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2.5px;
+}
+
+.open-popup-picture {
+    visibility: visible;
+}
+
+.popup-picture .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    background-color: grey;
+    color: white;
+    padding: 0px 4px 0px 4px;
+    line-height: 32px; 
+}   
+
+.popup-picture .heading h2 {
+    display: flex;
+}
+
+.popup-picture .heading .mec {
+    display: flex;
+}
+
+.popup-picture .heading .minimize, .extend, .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    background-color: #bfbfbf;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2.5px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2.5px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 2.5px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2.5px;      
+}
+
+.popup-picture .heading .minimize img, .extend img, .close img {
+    height: 70%;
+    width: 70%;
+}
+
+.popup-picture .heading .close {
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.popup-picture .ditbenik {
+    padding-top: 4px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.popup-mail {
+    visibility: hidden;
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+    margin: auto;
+    padding: 4px;
+    width: 500px;
+    background-color: #bfbfbf;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2.5px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2.5px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 2.5px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2.5px;
+}
+
+.open-popup-mail {
+    visibility: visible;
+}
+
+.popup-mail .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    background-color: grey;
+    color: white;
+    padding: 0px 4px 0px 4px;
+    line-height: 32px; 
+}   
+
+.popup-mail .heading h2 {
+    display: flex;
+}
+
+.popup-mail .heading .mec {
+    display: flex;
+}
+
+.popup-mail .heading .minimize, .extend, .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    background-color: #bfbfbf;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2.5px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2.5px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 2.5px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2.5px;      
+}
+
+.popup-mail .heading .minimize img, .extend img, .close img {
+    height: 70%;
+    width: 70%;
+}
+
+.popup-mail .heading .close {
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.popup-mail .ditbenik {
+    padding-top: 4px;
+    width: 100%;
+}
+
+.email-to {
+    margin: 4px 0px 4px 0px;
+    padding: 4px;
+    background-color: lightgray;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    margin: 4px 0px 4px 0px;
+    padding: 4px;
+    background-color: lightgray;
+}
+
+#email {
+    margin: 4px 0px 4px 8px;
+    padding: 4px 0px 4px 0px;
+    background-color: #bfbfbf;
+    border: none;
+    width: 100%;
+}
+
+#email:focus {
+    outline: none;
+}
+
+.message {
+    margin: 4px 0px 4px 0px;
+    padding: 4px;
+    background-color: lightgray;
+}
+
+.message-input {
+    margin: 4px 0px 4px 0px;
+    padding: 4px;
+    background-color: lightgray;
+}
+
+#message {
+    margin-top: 4px;
+    resize: none;
+    padding: 4px 0px 4px 0px;
+    background-color: #bfbfbf;
+    border: none;
+    width: 100%;
+    height: 200px;
+}
+
+#message:focus {
+    outline: none;
+}
+
+.send {
+    margin: 10px 4px 10px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 80px;
+    height: 28px;
+    border-bottom: solid grey 2.5px;
+    border-right: solid grey 2.5px;
+    border-left: solid lightgrey 2.5px;
+    border-top: solid lightgrey 2.5px;
+}
+
+.send:active {
+    background-color: #bfbfbf;
+    border-bottom-style: solid;
+    border-bottom: solid lightgrey 2.5px;
+    border-right: solid lightgrey 2.5px;
+    border-left: solid grey 2.5px;
+    border-top: solid grey 2.5px;     
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    background-color: #A7A7A7;
+    padding: 4px;
+    width: 592px;
+    bottom: 4px;
+}
+
+footer p:nth-of-type(1) {
+    float: left;
+}
+
+footer p:nth-of-type(2) {
+    float: right;
+}
