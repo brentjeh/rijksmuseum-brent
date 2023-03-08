@@ -18,7 +18,7 @@ Eerst was ik begonnen met het schetsen van de pagina.
 
 Hieronder het resultaat:
 
-<img src="./rijksmuseum/notion/schets.png" width=500px>
+<img src="./rijksmuseum/notion/schets.jpg" width=500px>
 
 De pagina is vrij simpel, ik heb een homepage met een search bar, een card met het schilderij erin en een detail pagina. Op mobiel zijn de cards over een column verdeeld. Hoe groter het scherm, hoe meer colums er tevoorschijn komen.
 
@@ -110,7 +110,7 @@ Dit koste me flink wat tijd, maar met behulp van ChatGPT is het me gelukt om een
 
 Hieronder het resultaat:
 
-<img src="./rijksmuseum/notion/first-design.png" width=500px>
+<img src="./rijksmuseum/notion/first-design.jpg" width=500px>
 
 Als je op een kunstwerk klikt, opent de pop-up. Als je op het kruisje klikt, sluit de pop-up. 
 
@@ -133,9 +133,9 @@ Omdat de code voor mijzelf en mogelijk voor anderen veel onoverzichtelijker werd
 
 Daarom presenteer ik met trots:
 
-<img src="./rijksmuseum/notion/redesign-1.png" width=500px>
+<img src="./rijksmuseum/notion/redesign-1.jpg" width=500px>
 
-<img src="./rijksmuseum/notion/redesign-2.png" width=500px>
+<img src="./rijksmuseum/notion/redesign-2.jpg" width=500px>
 
 Een aantal dingen die ik heb toegevoegd:
 
