@@ -4,7 +4,7 @@ In de eerste week heb ik een visitekaartje gemaakt. Dit heb ik met behulp van HT
 
 Hieronder het eindresultaat: 
 
-<img src="rijksmuseum-brent/rijksmuseum/visitekaartje.png" width=500px>
+<img src="rijksmuseum-brent/rijksmuseum/notion/visitekaartje.png" width=500px>
 
 Ik snap de verwarring, maar ik ben niet de hond op het plaatje. Dat is een placeholder image. Ik ben er niet aan toegekomen om het plaatje te veranderen en heel eerlijk vind ik mijzelf wel prima als een hond. Je kan met de ‘files’ interacteren door er op te klikken, waardoor de ‘dit ben ik’ window en de ‘mail mij’ window geopend worden. Je kan de ‘dit ben ik’ window ook draggen over de pagina. 
 
