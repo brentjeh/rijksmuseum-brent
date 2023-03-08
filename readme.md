@@ -5,7 +5,6 @@ In de eerste week heb ik een visitekaartje gemaakt. Dit heb ik met behulp van HT
 Hieronder het eindresultaat: 
 
 <img src="./rijksmuseum/notion/visitekaartje.png" width=500px>
-
 Ik snap de verwarring, maar ik ben niet de hond op het plaatje. Dat is een placeholder image. Ik ben er niet aan toegekomen om het plaatje te veranderen en heel eerlijk vind ik mijzelf wel prima als een hond. Je kan met de ‘files’ interacteren door er op te klikken, waardoor de ‘dit ben ik’ window en de ‘mail mij’ window geopend worden. Je kan de ‘dit ben ik’ window ook draggen over de pagina. 
 
 # Week 2
@@ -161,3 +160,16 @@ var Routie=function(a,b){var c=[],d={},e="routie",f=a[e],g=function(a,b){this.na
 # Week 4
 
 In de laatste week heb ik het project opgeschoond en heb ik het laten nakijken door klasgenoten.
+
+## Wat ik heb geleerd
+
+Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
+
+<li>
+  <ul>Ik heb geleerd hoe ik modules kan gebruiken om mijn JavaScript op te schonen</ul>
+  <ul>Ik heb geleerd hoe ik data uit een API kan fetchen aan de hand van de fetch method</ul>
+  <ul>Ik heb geleerd hoe ik de data uit de API in HTML elementen kan stoppen</ul>
+  <ul>Ik heb geleerd hoe ik een loading state en een error state kan toevoegen</ul>
+  <ul>Ik heb geleerd hoe ik de data uit de API aan de hand van JavaScript kan filteren en hiermee een zoekfunctie kan maken</ul>
+  <ul>Ik heb geleerd hoe ik de data uit de API aan de hand van JavaScript kan filteren en hiermee een zoekfunctie kan maken</ul>
+</li>
