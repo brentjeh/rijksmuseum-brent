@@ -4,7 +4,7 @@ In de eerste week heb ik een visitekaartje gemaakt. Dit heb ik met behulp van HT
 
 Hieronder het eindresultaat: 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69ba7e31-3d54-46de-8710-834bd06aec27/Untitled.png)
+<img src="/readmeimgs/design.jpg" width=500px>
 
 Ik snap de verwarring, maar ik ben niet de hond op het plaatje. Dat is een placeholder image. Ik ben er niet aan toegekomen om het plaatje te veranderen en heel eerlijk vind ik mijzelf wel prima als een hond. Je kan met de ‘files’ interacteren door er op te klikken, waardoor de ‘dit ben ik’ window en de ‘mail mij’ window geopend worden. Je kan de ‘dit ben ik’ window ook draggen over de pagina. 
 
