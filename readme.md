@@ -171,5 +171,7 @@ Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
   <ul>Ik heb geleerd hoe ik de data uit de API in HTML elementen kan stoppen</ul>
   <ul>Ik heb geleerd hoe ik een loading state en een error state kan toevoegen</ul>
   <ul>Ik heb geleerd hoe ik de data uit de API aan de hand van JavaScript kan filteren en hiermee een zoekfunctie kan maken</ul>
-  <ul>Ik heb geleerd hoe ik de data uit de API aan de hand van JavaScript kan filteren en hiermee een zoekfunctie kan maken</ul>
+  <ul>Ik heb geleerd hoe ik beter met CSS grid kan werken</ul>
+  <ul>Ik heb geleerd hoe ik grid-template-rows: masonry kan toepassen</ul>
+  <ul>Ik heb geleerd hoe ik een pop-up kan maken</ul>
 </li>
