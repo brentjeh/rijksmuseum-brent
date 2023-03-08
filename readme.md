@@ -18,7 +18,7 @@ Eerst was ik begonnen met het schetsen van de pagina.
 
 Hieronder het resultaat:
 
-![unnamed.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8dd9d7b-e029-4d00-8697-2b03f6146cbb/unnamed.jpg)
+<img src="./rijksmuseum/notion/schets.png" width=500px>
 
 De pagina is vrij simpel, ik heb een homepage met een search bar, een card met het schilderij erin en een detail pagina. Op mobiel zijn de cards over een column verdeeld. Hoe groter het scherm, hoe meer colums er tevoorschijn komen.
 
@@ -110,7 +110,7 @@ Dit koste me flink wat tijd, maar met behulp van ChatGPT is het me gelukt om een
 
 Hieronder het resultaat:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2e5c27f-d393-4f24-9933-437b814969cf/Untitled.png)
+<img src="./rijksmuseum/notion/first-design.png" width=500px>
 
 Als je op een kunstwerk klikt, opent de pop-up. Als je op het kruisje klikt, sluit de pop-up. 
 
@@ -133,9 +133,9 @@ Omdat de code voor mijzelf en mogelijk voor anderen veel onoverzichtelijker werd
 
 Daarom presenteer ik met trots:
 
-![ea1053eda812f3cb313ee5a5834c2d0f.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30de3cd4-a5fe-4e8b-a1ff-3560b5409d11/ea1053eda812f3cb313ee5a5834c2d0f.jpg)
+<img src="./rijksmuseum/notion/redesign-1.png" width=500px>
 
-![99b62f4f96db606567cb6235e510ccb3.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ce9e96a-16c6-48a3-a2b9-4e490631b023/99b62f4f96db606567cb6235e510ccb3.jpg)
+<img src="./rijksmuseum/notion/redesign-2.png" width=500px>
 
 Een aantal dingen die ik heb toegevoegd:
 
@@ -156,7 +156,7 @@ var Routie=function(a,b){var c=[],d={},e="routie",f=a[e],g=function(a,b){this.na
 
 - Modules
 
-![5bceb3ec08f361d7b6afcca1c9820548.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb18076a-8bb6-4534-ab42-e1c1a4b45d98/5bceb3ec08f361d7b6afcca1c9820548.png)
+<img src="./rijksmuseum/notion/modules.png" width=500px>
 
 # Week 4
 
