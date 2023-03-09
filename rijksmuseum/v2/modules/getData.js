@@ -8,7 +8,7 @@ export function getData () {
       const paintings = data.artObjects;
       const imagesContainer = document.getElementById('images-container');
   
-      // Iterate over the paintings and create image elements for each one
+      // Gaat over elk kunstwerk heen en creert voor elk kunstwerk een image element
       for (let i = 0; i < paintings.length; i++) {
         const painting = paintings[i];
         const imageUrl = painting.webImage.url;
@@ -22,7 +22,7 @@ export function getData () {
         imageElement.dataset.description = imageDescription;
         imageElement.loading = 'lazy';
   
-        // Add a click event listener to each image element
+        // Voegt een click event listener toe aan elk plaatje
         imageElement.addEventListener('click', () => {
           const modalTitle = document.getElementById('modal-title');
           const modalImage = document.getElementById('modal-image');

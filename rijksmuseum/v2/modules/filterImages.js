@@ -16,7 +16,7 @@ export function filterImages(query) {
     });
   }
 
-// Add an event listener to the search input field
+// Voegt een event listener toe aan de search bar
 
 const searchInput = document.getElementById("search-input");
 
