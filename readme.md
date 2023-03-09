@@ -4,8 +4,7 @@ In de eerste week heb ik een visitekaartje gemaakt. Dit heb ik met behulp van HT
 
 Hieronder het eindresultaat: 
 
-<img src="/readmeimgs/design.jpg" width=500px>
-
+<img src="./rijksmuseum/notion/visitekaartje.png" width=500px>
 Ik snap de verwarring, maar ik ben niet de hond op het plaatje. Dat is een placeholder image. Ik ben er niet aan toegekomen om het plaatje te veranderen en heel eerlijk vind ik mijzelf wel prima als een hond. Je kan met de ‘files’ interacteren door er op te klikken, waardoor de ‘dit ben ik’ window en de ‘mail mij’ window geopend worden. Je kan de ‘dit ben ik’ window ook draggen over de pagina. 
 
 # Week 2
@@ -18,7 +17,7 @@ Eerst was ik begonnen met het schetsen van de pagina.
 
 Hieronder het resultaat:
 
-![unnamed.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8dd9d7b-e029-4d00-8697-2b03f6146cbb/unnamed.jpg)
+<img src="./rijksmuseum/notion/schets.jpg" width=500px>
 
 De pagina is vrij simpel, ik heb een homepage met een search bar, een card met het schilderij erin en een detail pagina. Op mobiel zijn de cards over een column verdeeld. Hoe groter het scherm, hoe meer colums er tevoorschijn komen.
 
@@ -110,7 +109,7 @@ Dit koste me flink wat tijd, maar met behulp van ChatGPT is het me gelukt om een
 
 Hieronder het resultaat:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2e5c27f-d393-4f24-9933-437b814969cf/Untitled.png)
+<img src="./rijksmuseum/notion/first-design.jpg" width=500px>
 
 Als je op een kunstwerk klikt, opent de pop-up. Als je op het kruisje klikt, sluit de pop-up. 
 
@@ -133,9 +132,9 @@ Omdat de code voor mijzelf en mogelijk voor anderen veel onoverzichtelijker werd
 
 Daarom presenteer ik met trots:
 
-![ea1053eda812f3cb313ee5a5834c2d0f.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30de3cd4-a5fe-4e8b-a1ff-3560b5409d11/ea1053eda812f3cb313ee5a5834c2d0f.jpg)
+<img src="./rijksmuseum/notion/redesign-1.jpg" width=500px>
 
-![99b62f4f96db606567cb6235e510ccb3.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ce9e96a-16c6-48a3-a2b9-4e490631b023/99b62f4f96db606567cb6235e510ccb3.jpg)
+<img src="./rijksmuseum/notion/redesign-2.jpg" width=500px>
 
 Een aantal dingen die ik heb toegevoegd:
 
@@ -156,8 +155,23 @@ var Routie=function(a,b){var c=[],d={},e="routie",f=a[e],g=function(a,b){this.na
 
 - Modules
 
-![5bceb3ec08f361d7b6afcca1c9820548.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb18076a-8bb6-4534-ab42-e1c1a4b45d98/5bceb3ec08f361d7b6afcca1c9820548.png)
+<img src="./rijksmuseum/notion/modules.png" width=500px>
 
 # Week 4
 
 In de laatste week heb ik het project opgeschoond en heb ik het laten nakijken door klasgenoten.
+
+## Wat ik heb geleerd
+
+Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
+
+<li>
+  <ul>Ik heb geleerd hoe ik modules kan gebruiken om mijn JavaScript op te schonen</ul>
+  <ul>Ik heb geleerd hoe ik data uit een API kan fetchen aan de hand van de fetch method</ul>
+  <ul>Ik heb geleerd hoe ik de data uit de API in HTML elementen kan stoppen</ul>
+  <ul>Ik heb geleerd hoe ik een loading state en een error state kan toevoegen</ul>
+  <ul>Ik heb geleerd hoe ik de data uit de API aan de hand van JavaScript kan filteren en hiermee een zoekfunctie kan maken</ul>
+  <ul>Ik heb geleerd hoe ik beter met CSS grid kan werken</ul>
+  <ul>Ik heb geleerd hoe ik grid-template-rows: masonry kan toepassen</ul>
+  <ul>Ik heb geleerd hoe ik een pop-up kan maken</ul>
+</li>
