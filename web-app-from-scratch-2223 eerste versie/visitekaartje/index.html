@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+    <title>Visitekaartje</title>
+</head>
+<body onload="move('popup')">
+    <div class="container">
+        <div id="block" class="block">
+            <header>
+                <div class="txt">
+                    <h2>Welkom op mijn visitekaartje</h2>
+                </div>
+                <div class="mec">
+                    <div class="minimize">
+                        <img src="./icons/minimize.svg">
+                    </div>
+                    <div class="extend">
+                        <img src="./icons/extend.svg">
+                    </div>
+                    <div class="close">
+                        <img src="./icons/close.svg">
+                    </div>
+                </div>
+            </header>
+            <nav>
+                <p>File</p>
+                <p>Edit</p>
+                <p>View</p>
+                <p>Help</p>
+            </nav>
+            <div class="information">
+                <div class="aboutme" onclick="openPopup()">
+                    <img src="./images/image2.png">
+                    <p>Over mij</p>
+                </div>
+                <div class="contactme" onclick="openPopup2()">
+                    <img src="./images/contact3.png">
+                    <p>Mail mij</p>
+                </div>
+                <div class="huiswerk" data-msg="Grootte: 3 MB">
+                    <img src="./images/directory_open.png">
+                    <p>Huiswerk</p>
+                </div>
+            </div>
+           
+            <footer>
+                <p>3 object(s)</p>
+                <p>Mijn visitekaartje</p>
+            </footer>
+        </div>
+        <div class="popup-picture" id="popup">
+            <div class="heading">
+                <div class="txt">
+                    <h2>Dit ben ik</h2>
+                </div>
+                <div class="mec">
+                    <div class="minimize">
+                        <img src="./icons/minimize.svg">
+                    </div>
+                    <div class="extend">
+                        <img src="./icons/extend.svg">
+                    </div>
+                    <div class="close" onclick="closePopup()">
+                        <img src="./icons/close.svg">
+                    </div>
+                </div>
+            </div>
+            <img class="ditbenik" src="./images/dog.jpg">
+        </div>
+        <div class="popup-mail" id="popup2">
+            <div class="heading">
+                <div class="txt">
+                    <h2>Mail</h2>
+                </div>
+                <div class="mec">
+                    <div class="minimize">
+                        <img src="./icons/minimize.svg">
+                    </div>
+                    <div class="extend">
+                        <img src="./icons/extend.svg">
+                    </div>
+                    <div class="close" onclick="closePopup2()">
+                        <img src="./icons/close.svg">
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <p>File</p>
+                <p>Edit</p>
+                <p>View</p>
+                <p>Help</p>
+            </nav>
+            <p class="email-to">To: brentduineveld2000@gmail.com</p>
+            <div class="email-input">
+                <label>From:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="message-input">
+                <label>Message:</label>
+                <textarea type="text" id="message" name="message"></textarea>
+            </div>
+            <div id="send" class="send">
+                <a href="#">Send</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

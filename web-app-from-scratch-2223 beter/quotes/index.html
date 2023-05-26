@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="http://127.0.0.1:5501/quotes/#/" id="home-link">Rijksmuseum Data</a></h1>
+        <input type="search" id="search-input" placeholder="Zoek een schilderij...">
+    </header>
+    <div id="popup">
+        <button id="close"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#131313" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        <div id="popup-content">
+            <h1 id="popup-title"></h1>
+            <p id="popup-description">Test</p>
+            <img id="popup-img" src="" alt="">
+        </div>
+    </div>
+    <div id="paintings-container"></div>
+    <h1 id="error-message">Geen resultaten gevonden. Probeer een andere zoekterm.</h1>
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>    
+    <script src="routie.min.js" defer></script>
+    <script type="module" src="modules/main.js" defer></script>
+    <script type="module" src="modules/routie-setup.js" defer></script>
+</body>
+</html>
