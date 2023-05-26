@@ -178,4 +178,8 @@ Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
 
 # Herkansing 
 
-<img src="./web-app-from-scratch-2223-beter/wireflow-&-activity-diagram/wireflow.jpg" width=500px>
+## Wireflow
+<img src="./web-app-from-scratch-2223-beter/wireflow-&-activity-diagram/wireflow.jpg" width=1000px>
+
+## Activity Diagram
+<img src="./web-app-from-scratch-2223-beter/wireflow-&-activity-diagram/activity-diagram.jpg" width=1000px>
