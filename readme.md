@@ -4,7 +4,7 @@ In de eerste week heb ik een visitekaartje gemaakt. Dit heb ik met behulp van HT
 
 Hieronder het eindresultaat: 
 
-<img src="./visitekaartje.png" width=500px>
+<img src="./web-app-from-scratch-2223-eerste-versie/rijksmuseum/notion/visitekaartje.png" width=500px>
 Ik snap de verwarring, maar ik ben niet de hond op het plaatje. Dat is een placeholder image. Ik ben er niet aan toegekomen om het plaatje te veranderen en heel eerlijk vind ik mijzelf wel prima als een hond. Je kan met de ‘files’ interacteren door er op te klikken, waardoor de ‘dit ben ik’ window en de ‘mail mij’ window geopend worden. Je kan de ‘dit ben ik’ window ook draggen over de pagina. 
 
 # Week 2
@@ -17,7 +17,7 @@ Eerst was ik begonnen met het schetsen van de pagina.
 
 Hieronder het resultaat:
 
-<img src="./rijksmuseum/notion/schets.jpg" width=500px>
+<img src="./web-app-from-scratch-2223-eerste-versie/rijksmuseum/notion/schets.jpg" width=500px>
 
 De pagina is vrij simpel, ik heb een homepage met een search bar, een card met het schilderij erin en een detail pagina. Op mobiel zijn de cards over een column verdeeld. Hoe groter het scherm, hoe meer colums er tevoorschijn komen.
 
@@ -109,7 +109,7 @@ Dit koste me flink wat tijd, maar met behulp van ChatGPT is het me gelukt om een
 
 Hieronder het resultaat:
 
-<img src="./rijksmuseum/notion/first-design.jpg" width=500px>
+<img src="./web-app-from-scratch-2223-eerste-versie/rijksmuseum/notion/first-design.jpg" width=500px>
 
 Als je op een kunstwerk klikt, opent de pop-up. Als je op het kruisje klikt, sluit de pop-up. 
 
@@ -132,9 +132,9 @@ Omdat de code voor mijzelf en mogelijk voor anderen veel onoverzichtelijker werd
 
 Daarom presenteer ik met trots:
 
-<img src="./rijksmuseum/notion/redesign-1.jpg" width=500px>
+<img src="./web-app-from-scratch-2223-eerste-versie/rijksmuseum/notion/redesign-1.jpg" width=500px>
 
-<img src="./rijksmuseum/notion/redesign-2.jpg" width=500px>
+<img src="./web-app-from-scratch-2223-eerste-versie/rijksmuseum/notion/redesign-2.jpg" width=500px>
 
 Een aantal dingen die ik heb toegevoegd:
 
@@ -155,7 +155,7 @@ var Routie=function(a,b){var c=[],d={},e="routie",f=a[e],g=function(a,b){this.na
 
 - Modules
 
-<img src="./rijksmuseum/notion/modules.png" width=500px>
+<img src="./web-app-from-scratch-2223-eerste-versie/rijksmuseum/notion/modules.png" width=500px>
 
 # Week 4
 
@@ -178,4 +178,4 @@ Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
 
 # Herkansing 
 
-
+<img src="./web-app-from-scratch-2223-beter/wireflow-&-activity-diagram/wireflow.jpg" width=500px>
