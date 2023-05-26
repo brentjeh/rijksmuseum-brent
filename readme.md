@@ -175,3 +175,7 @@ Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
   <ul>Ik heb geleerd hoe ik grid-template-rows: masonry kan toepassen</ul>
   <ul>Ik heb geleerd hoe ik een pop-up kan maken</ul>
 </li>
+
+# Herkansing 
+
+
